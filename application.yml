@@ -23,4 +23,12 @@ eureka:
     fetchRegistry: true
   service-url:
     defaultzone: http://localhost:8761/eureka/
-      
+
+sapp: 
+  security:
+    jwt: 
+      keystore-location: keys/keystore.jks
+      keystore-password: X0LDM7JLwfyt
+      key-alias: jwtsigning
+      private-key-passphrase: X0LDM7JLwfyt
+     
