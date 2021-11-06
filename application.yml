@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/employee?allowPublicKeyRetrieval=true&useSSL=false
+    url: jdbc:mysql://localhost:3306/ez_lorry_db_dev?allowPublicKeyRetrieval=true&useSSL=false
     username: root
     password: root
     jpa:
