@@ -24,7 +24,7 @@ eureka:
   service-url:
     defaultzone: http://localhost:8761/eureka/
 
-sapp: 
+app: 
   security:
     jwt: 
       keystore-location: keys/keystore.jks
