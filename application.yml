@@ -31,4 +31,7 @@ app:
       keystore-password: X0LDM7JLwfyt
       key-alias: jwtsigning
       private-key-passphrase: X0LDM7JLwfyt
-     
+
+LOG_PATH: D:/logs/application-logs
+
+
