@@ -15,7 +15,11 @@ spring:
 #  zipkin:
 #    enabled: false
 
-logfilepath: D:///logs/application-logs
+#logfilepath: D:///logs/application-logs
+
+logging:
+  file:
+    name: D:///logs/application-logs
 
 eureka:
   instance:
